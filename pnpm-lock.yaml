@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   next:
     specifier: 14.0.3
@@ -22,8 +26,8 @@ devDependencies:
     specifier: ^18
     version: 18.0.0
   autoprefixer:
-    specifier: ^10.0.1
-    version: 10.0.1(postcss@8.0.0)
+    specifier: ^10.4.16
+    version: 10.4.16(postcss@8.0.0)
   eslint:
     specifier: ^8
     version: 8.0.0
@@ -484,8 +488,8 @@ packages:
       has-symbols: 1.0.3
     dev: true
 
-  /autoprefixer@10.0.1(postcss@8.0.0):
-    resolution: {integrity: sha512-aQo2BDIsoOdemXUAOBpFv4ZQa2DrOtEufarYhtFsK1088Ca0TUwu/aQWf0M3mrILXZ3mTIVn1lR3hPW8acacsw==}
+  /autoprefixer@10.4.16(postcss@8.0.0):
+    resolution: {integrity: sha512-7vd3UC6xKp0HLfua5IjZlcXvGAGy7cBAXTg2lyQ/8WpNhd6SiZ8Be+xm3FyBSYJx5GKcpRCzBh7RH4/0dnY+uQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -493,9 +497,9 @@ packages:
     dependencies:
       browserslist: 4.22.2
       caniuse-lite: 1.0.30001565
-      colorette: 1.4.0
+      fraction.js: 4.3.7
       normalize-range: 0.1.2
-      num2fraction: 1.2.2
+      picocolors: 1.0.0
       postcss: 8.0.0
       postcss-value-parser: 4.2.0
     dev: true
@@ -1205,6 +1209,10 @@ packages:
       is-callable: 1.2.7
     dev: true
 
+  /fraction.js@4.3.7:
+    resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
+    dev: true
+
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
@@ -1816,10 +1824,6 @@ packages:
   /normalize-range@0.1.2:
     resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==}
     engines: {node: '>=0.10.0'}
-    dev: true
-
-  /num2fraction@1.2.2:
-    resolution: {integrity: sha512-Y1wZESM7VUThYY+4W+X4ySH2maqcA+p7UR+w8VWNWVAd6lwuXXWz/w/Cz43J/dI2I+PS6wD5N+bJUF+gjWvIqg==}
     dev: true
 
   /object-assign@4.1.1:
