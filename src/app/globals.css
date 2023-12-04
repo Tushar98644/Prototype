@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Windsong';
+    src: url('/fonts/Windsong.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tan-pearl';
+    src: url('/fonts/TAN-PEARL.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nautica';
+    src: url('/fonts/Nautica.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bagross-light';
+    src: url('/fonts/Bagoss-Light.ttf') format('truetype');
+}
+
+.bg{
+    background-image: url('/Green-Hero.png');
+    background-size: contain;
+    background-repeat:repeat;
+    background-position: center;
+}

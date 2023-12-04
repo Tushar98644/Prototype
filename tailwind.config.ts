@@ -13,6 +13,12 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        windsong: [' Windsong', 'cursive'],
+        Tanpearl: ['Tan-pearl', 'cursive'],
+        nautica: ['Nautica', 'cursive'],
+        Bagross: ['Bagross-Light', 'normal'],
+      },
     },
   },
   plugins: [],
