@@ -4,7 +4,7 @@ import { Carousel } from "@/src/components";
 /* eslint-disable @next/next/no-img-element */
 const Home_page = () => {
   return (
-    <div className="bg h-screen">
+    <div className="bg-[url('/images/Green-Hero.png')] bg-repeat bg-center bg-contain h-screen">
       <div className="absolute top-[13vw] w-[10vw] left-[64vw]">
         <Carousel />
       </div>

@@ -21,10 +21,3 @@
     font-family: 'Bagross-light';
     src: url('/fonts/Bagoss-Light.ttf') format('truetype');
 }
-
-.bg{
-    background-image: url('/images/Green-Hero.png');
-    background-size: contain;
-    background-repeat:repeat;
-    background-position: center;
-}
