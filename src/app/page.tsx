@@ -10,7 +10,7 @@ const Home_page = () => {
         <img src="images/spin.png" alt="" className="h-[70px] w-[80px] justify-self-center" />
         <p className="font-Bagross text-white text-[1.1vw] justify-self-end">REACH OUT</p>
       </div>
-      <div className="grid grid-cols-5 mb-[8vw]">
+      <div className="grid grid-cols-5 mb-[4vw]">
         <div className="flex flex-col col-span-2">
           <div className="grid grid-rows pl-[7vw] pt-[3vw] text-white">
             <span className="font-windsong ml-[10vw] text-[6.8vw]">creating</span>
