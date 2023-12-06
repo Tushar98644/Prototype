@@ -4,13 +4,13 @@ import { Carousel } from "@/src/components";
 /* eslint-disable @next/next/no-img-element */
 const Home_page = () => {
   return (
-    <div className="bg-[url('/images/Green.png')] h-screen w-screen bg-repeat bg-cover bg-center flex flex-col">
+    <div className="bg-[url('/images/Green.png')] h-screen max-w-screen bg-repeat bg-cover bg-center flex flex-col">
       <div className="grid grid-cols-3 justify-evenly px-12 py-2 items-center">
         <p className="font-Bagross text-white text-[1.1vw] justify-self-start">SNEHA <br /> <span className="ml-8">CHAKRABORTHY</span></p>
         <img src="images/spin.png" alt="" className="h-[70px] w-[80px] justify-self-center" />
         <p className="font-Bagross text-white text-[1.1vw] justify-self-end">REACH OUT</p>
       </div>
-      <div className="grid grid-cols-5">
+      <div className="grid grid-cols-5 mb-[8vw]">
         <div className="flex flex-col col-span-2">
           <div className="grid grid-rows pl-[7vw] pt-[3vw] text-white">
             <span className="font-windsong ml-[10vw] text-[6.8vw]">creating</span>
@@ -31,7 +31,7 @@ const Home_page = () => {
           <p className="font-Tanpearl text-[3.3vw] ml-[-5vw] text-white self-end">STR<span className="font-nautica text-[7vw]">O</span>KES</p>
         </div>
       </div>
-      <div className="grid grid-cols px-10 mt-[7vw] bg-lime-950">
+      <div className="grid grid-cols px-10 bg-lime-950">
         <img src="images/lotus.png" alt="" className="w-[68px] h-[62px] bg-red-900 justify-self-end" />
       </div>
     </div>
