@@ -5,7 +5,7 @@ import { Carousel } from "@/src/components";
 const Home_page = () => {
   return (
     <div className="bg-[url('/images/Green.png')] bg-repeat bg-center bg-contain h-screen">
-      <div className="absolute top-[13vw] w-[10vw] left-[64vw]">
+      <div className="top-[13vw] w-[10vw] left-[64vw]">
         <Carousel />
       </div>
       <img src="images/spin.png" alt="" className="absolute h-20 left-[46.5vw] top-4 animate-spin" />
@@ -15,13 +15,11 @@ const Home_page = () => {
         <span className="font-windsong pl-24 animate-pulse">creating</span>
         <span className="font-Tanpearl absolute top-56 animate-pulse"><span className="font-nautica text-[7vw]">E</span>MOTIONS</span>
       </div>
-    
       <p className="font-Bagross absolute top-[23vw] left-12 text-white text-xs mx-60 text-end">Cras ullamcorper ante mauris, sed <p> vestibulum ligula blandit eu. Aliquam nec arcu </p> quis nibh tristique vulputate gravida non tortor. <p> Vivamus ut posuere mauris. </p></p>
       <p className="font-Tanpearl text-5xl absolute left-[57vw] pt-28 text-white">STR<span className="font-nautica text-[7vw]">Q</span>RES</p>
       <p className="font-Bagross text-md absolute left-80 text-[hsl(52,98%,75%)] animate-ping">EXPLORE</p>
       <img src="images/lotus.png" alt="" className="absolute left-[92vw] h-20 top-[50vw] animate-spin" />
       <img src="images/ring.png" alt="" className="absolute left-[15vw] h-28 top-[27vw] animate-spin" />
-
     </div>
   );
 }
