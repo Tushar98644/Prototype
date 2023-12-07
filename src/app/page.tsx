@@ -14,7 +14,7 @@ const Home_page = () => {
       </div>
       <div className="grid grid-cols-3 justify-evenly px-12 py-1 items-center z-1">
         <p className="font-Bagross text-white text-[1.1vw] justify-self-start">SNEHA <br /> <span className="ml-8">CHAKRABORTHY</span></p>
-        <img src="images/spin.png" alt="" className="h-[70px] w-[80px] justify-self-center z-10" />
+        <img src="images/spin.png" alt="" className="h-[4.86vw] w-[5.5vw] justify-self-center z-10" />
         <p className="font-Bagross text-white text-[1.1vw] justify-self-end">REACH OUT</p>
       </div>
       <div className="grid grid-cols-5 pb-[1vw]">
@@ -25,8 +25,8 @@ const Home_page = () => {
           </div>
           <p className="font-Bagross mt-[-7vw] text-white text-[0.97vw] text-end mx-8">Cras ullamcorper ante mauris, sed <p> vestibulum ligula blandit eu. Aliquam nec arcu </p> quis nibh tristique vulputate gravida non tortor. <p> Vivamus ut posuere mauris. </p></p>
           <div className="flex flex-row items-center justify-center mr-20">
-            <img src="images/ring.png" alt="" className="w-[150px] h-[150px]" />
-            <p className="font-Bagross text-[1.2vw] ml-[-40px] text-[hsl(52,98%,75%)]">EXPLORE</p>
+            <img src="images/ring.png" alt="" className="w-[10.4vw] h-[10.4vw]" />
+            <p className="font-Bagross text-[1.2vw] ml-[-2.7vw] text-[hsl(52,98%,75%)]">EXPLORE</p>
           </div>
         </div>
         <div className="flex col-span-1">
@@ -42,7 +42,7 @@ const Home_page = () => {
         <img src="images/lotus.png" alt="" className=" w-[68px] h-[62px] justify-self-end" />
       </div> */}
       <div className="fixed bottom-[2vw] right-[2vw]">
-        <img src="images/lotus.png" alt="" className=" w-[68px] h-[62px] justify-self-end" />
+        <img src="images/lotus.png" alt="" className=" w-[4.7vw] h-[4.3vw] justify-self-end" />
       </div>
     </div>
   );
